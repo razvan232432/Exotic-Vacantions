@@ -2,5 +2,33 @@ body {
     background-image: url(https://e0.pxfuel.com/wallpapers/425/72/desktop-wallpaper-exotic-beach.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     height: 100%;
 }
+
+h1 {
+    text-align: center;
+    left: 50%;
+    margin-left: 100px;
+    top: 50%;
+    margin-top: 200px;
+    color: blue;
+}    
+
+.a {
+    margin-left: 1000px;
+}
+
+a:link, a:visited {
+    background-color: #1a31de;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: blue;
+  }
